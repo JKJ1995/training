@@ -1,0 +1,63 @@
+body{
+    background-color: #202124;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.menu{
+    width:100%;
+    text-align: right;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    padding: 12px;
+
+}
+
+.main-Google p{
+    top: 200px;
+    position:relative;
+    font-size: 80px;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+}
+
+.search_box{
+    text-align: center;
+    top: 220px;
+    position:relative;
+}
+
+.search_bottom {
+    text-align: center;
+    top: 230px;
+    position:relative;
+    font-size: 14px;
+}
+
+.search_bottom_lang1{
+    color:#6c9fdf;
+}
+.search_bottom_lang2{
+    color:#6c9fdf;
+}
+
+input[class="search"]{
+    background-color: #5f6368;
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 14px;
+    border: none;
+    width: 30%;
+}
+
+/* <-----------------------------------------------------------------------------------------> */
+
+.menu_text:hover{
+    text-decoration: underline;
+}
