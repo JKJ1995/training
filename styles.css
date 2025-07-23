@@ -14,7 +14,7 @@ body{
     text-decoration: none;
     font-family: Roboto, Arial, sans-serif;
     font-size: 13px;
-    padding: 12px;
+    padding: 10px;
 
 }
 
@@ -56,6 +56,11 @@ input[class="search"]{
     width: 30%;
 }
 
+.searchlab_logo{
+    height: 18px;
+    padding-top: 20px;
+    filter: invert(100%);
+}
 /* <-----------------------------------------------------------------------------------------> */
 
 .menu_text:hover{
