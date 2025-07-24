@@ -1,47 +1,70 @@
-body{
+body {
     background-color: #202124;
     color: white;
     font-family: Roboto, Arial, sans-serif;
 }
 
-.menu{
-    width:100%;
-    text-align: right;
+.container{
+    display: grid;
+    grid-template-rows: 30% 40% 10% 40%;
+    grid-template-columns: 35% 48% 3% 3% 3% 4% 4%;
+    grid-gap: 20px;
+}
+
+.menu {
+    /* border: solid 3px red; */
+    grid-area: 1 / 3 / 1 / 7;
+    margin-top: 20px;
+    text-align: bottom;
+    
+}
+
+.main-Google{
+    grid-area: 2 / 1 / 2 / 7;
+    font-size: 80px;
+    padding: 0;
+    text-align: center;
+}
+
+.search_box{
+    grid-area: 3 / 1 / 3 / 7;
+    text-align: center;
+}
+
+.search_bottom{
+    grid-area: 4 / 1 / 4 / 7;
+    text-align: center;
+    font-size: 14px;
 }
 
 .menu a{
+    /* border: solid 3px blue; */
     color: white;
     text-decoration: none;
     font-family: Roboto, Arial, sans-serif;
     font-size: 13px;
     padding: 10px;
-
 }
 
-.main-Google p{
-    top: 200px;
-    position:relative;
-    font-size: 80px;
-    text-align: center;
-    padding: 0;
-    margin: 10px;
+.searchlab_logo{
+    height: 18px;
+    filter: invert(100%);
+    vertical-align: bottom;
 }
 
-.search_box{
-    text-align: center;
-    top: 220px;
-    position:relative;
+.dots_logo{
+    height: 18px;
+    vertical-align: bottom;
 }
 
-.search_bottom {
-    text-align: center;
-    top: 230px;
-    position:relative;
-    font-size: 14px;
+.signinborder{
+    border-radius: 15%;
+    background-color: rgb(28, 155, 230);
+    border: 1px solid black;
 }
 
 .search_bottom_lang1{
-    color:#6c9fdf;
+    color:#6191cc;
 }
 .search_bottom_lang2{
     color:#6c9fdf;
@@ -56,13 +79,22 @@ input[class="search"]{
     width: 30%;
 }
 
-.searchlab_logo{
-    height: 18px;
-    padding-top: 20px;
-    filter: invert(100%);
-}
 /* <-----------------------------------------------------------------------------------------> */
 
 .menu_text:hover{
     text-decoration: underline;
+}
+
+.hovercolor:hover {
+    border-radius: 50%;
+    background-color: rgb(161, 154, 154);
+    z-index: -1;
+}
+
+.lang_hover:hover{
+    color: rgb(180, 222, 236);
+}
+
+.search:hover{
+    background-color: rgb(151, 151, 151);
 }
