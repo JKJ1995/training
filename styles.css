@@ -1,0 +1,76 @@
+body{
+    background-color: #101418 ;
+}
+
+.main{
+    color: white;
+    text-align: center;
+    font-family: serif;
+    padding: 0;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.main p{
+    margin: 0;  
+}
+
+.wiki_size{
+    padding: 0;
+    margin: 0;
+}
+
+.wiki_size{
+    font-size: 40px;
+}
+
+.allmain{
+    text-align: center;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.name1 > p{
+    display:inline-flex;
+    padding: 0;
+    margin:15px;
+}
+
+.name2 > p{
+    display:inline-flex;
+    padding: 0;
+    margin:15px;
+}
+
+.name3 > p{
+    display:inline-flex;
+    padding: 0;
+    margin:15px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+div .name1 .name1_l {
+    margin-right: 80px;
+}
+
+div .name1 .name1_r {
+    margin-left: 80px;
+}
+
+div .name2 .name2_l {
+    margin-right: 120px;
+}
+
+div .name2 .name2_r {
+    margin-left: 120px;
+}
+
+div .name3 .name3_l {
+    margin-right: 160px;
+}
+
+div .name3 .name3_r {
+    margin-left: 160px;
+}
